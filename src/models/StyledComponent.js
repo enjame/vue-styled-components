@@ -25,7 +25,6 @@ export default (ComponentStyle) => {
       props: {
         as: [String, Object],
         value: null,
-        ...currentProps,
         ...mergedProps
       },
       data () {
